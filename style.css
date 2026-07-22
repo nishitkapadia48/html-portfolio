@@ -1,0 +1,104 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  background-color: #2c313f;
+  scroll-behavior: smooth;
+}
+#home {
+  text-align: center;
+}
+#home button {
+  background-color: aqua;
+  border-radius: 5px;
+}
+#home a {
+  color: black;
+}
+#about {
+  text-align: center;
+  padding-bottom: 200px;
+}
+#skills h1 {
+  font-size: larger;
+}
+#skills ol {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  font-size: 40px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: aqua;
+  color: #2c313f;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background: white;
+}
+.main {
+  padding-top: 40px;
+  color: aqua;
+  text-align: center;
+}
+.main p {
+  color: whitesmoke;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #2c313f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+.logo {
+  text-transform: capitalize;
+  padding-left: 10px;
+  color: aquamarine;
+}
+.page {
+  color: aqua;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.page h1 {
+  font-size: 42px !important;
+}
+.page p {
+  color: whitesmoke;
+  font-size: 18px !important;
+}
+a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: aquamarine;
+}
+body {
+  margin-top: 70px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #9ca3af;
+  border-top: 1px solid #555;
+}
+nav {
+  margin-left: auto;
+}
