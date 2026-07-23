@@ -8,6 +8,12 @@ html {
 #home {
   text-align: center;
 }
+#home h1 {
+  font-size: 50px;
+}
+#home p {
+  font-size: 20px;
+}
 #home button {
   background-color: aqua;
   border-radius: 5px;
@@ -19,14 +25,26 @@ html {
   text-align: center;
   padding-bottom: 200px;
 }
+#about h1 {
+  font-size: 50px;
+}
+#about p {
+  font-size: 20px;
+}
 #skills h1 {
-  font-size: larger;
+  font-size: 50px;
 }
 #skills ol {
   display: flex;
   justify-content: center;
   gap: 30px;
-  font-size: 22px;
+  font-size: 21px;
+}
+#contact h1 {
+  font-size: 50px;
+}
+#contact p {
+  font-size: 20px;
 }
 .btn {
   display: inline-block;
@@ -40,14 +58,6 @@ html {
 
 .btn:hover {
   background: white;
-}
-.main {
-  padding-top: 40px;
-  color: aqua;
-  text-align: center;
-}
-.main p {
-  color: whitesmoke;
 }
 .header {
   position: fixed;
