@@ -1,0 +1,160 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  background-color: #2c313f;
+  scroll-behavior: smooth;
+}
+#home {
+  text-align: center;
+}
+#home button {
+  background-color: aqua;
+  border-radius: 5px;
+}
+#home a {
+  color: black;
+}
+#about {
+  text-align: center;
+  padding-bottom: 200px;
+}
+#skills h1 {
+  font-size: larger;
+}
+#skills ol {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 22px;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 25px;
+  background: aqua;
+  color: #2c313f;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background: white;
+}
+.main {
+  padding-top: 40px;
+  color: aqua;
+  text-align: center;
+}
+.main p {
+  color: whitesmoke;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #2c313f;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+.header h2 {
+  font-size: 13x;
+}
+.logo {
+  text-transform: capitalize;
+  padding-left: 10px;
+  color: aquamarine;
+}
+.page {
+  color: aqua;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  max-width: 800px;
+  margin: 0 auto;
+  scroll-margin-top: 40px;
+}
+.page h1 {
+  font-size: 30px;
+}
+
+.page p {
+  color: whitesmoke;
+  font-size: 13px;
+}
+a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: aquamarine;
+}
+nav a {
+  font-size: 13px;
+  font-weight: 500;
+}
+body {
+  margin-top: 70px;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #9ca3af;
+  border-top: 1px solid #555;
+}
+nav {
+  margin-left: auto;
+}
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  #skills ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    font-size: 20px !important;
+    list-style: none;
+    padding: 0;
+  }
+
+  #skills li {
+    margin: 0;
+  }
+  nav {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+  }
+  nav a {
+    padding: 0 6px;
+    font-size: 14px;
+  }
+
+  .page h1 {
+    font-size: 28px !important;
+  }
+
+  .page p {
+    font-size: 15px !important;
+    padding: 0 15px;
+  }
+
+  .page {
+    min-height: 100vh; /* was: min-height: auto */
+    padding: 80px 15px 40px;
+  }
+}
